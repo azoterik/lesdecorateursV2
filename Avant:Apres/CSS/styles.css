@@ -1,0 +1,287 @@
+* {
+  padding: 0;
+  margin: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+/***************************************************** Nav bar */
+.navbar {
+  font-family: 'Cabin';
+  font-weight: bold;
+}
+
+.navpadding {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.navdiv {
+  padding-right: 15px;
+  background-color: white;
+}
+
+.navtext {
+  font-size: 14px;
+  color: black;
+  padding-left: 70px;
+}
+
+.collapse {
+  padding-right: 70px;
+}
+
+.navtext:hover {
+  color: black;
+}
+
+.myButton {
+  background-color: #000000;
+  border-radius: 35px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #fcf7fc;
+  font-family: 'Cabin';
+  font-size: 12px;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+.myButton:hover {
+  background-color: black;
+  text-decoration: none;
+  color: white;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.myButton6 {
+  background-color: black;
+  border-radius: 35px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-family: 'Cabin';
+  font-size: 14px;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+.myButton6:hover {
+  background-color: black;
+  text-decoration: none;
+  color: white;
+}
+
+.myButton6:active {
+  position: relative;
+  top: 1px;
+}
+
+.Carreglobal {
+  background-color: #fcf2ea;
+  height: 600px;
+  width: 894px;
+  margin: 0 auto;
+  border-radius: 10px;
+  bottom: 15px;
+  margin-top: 90px;
+}
+
+#before {
+  width: 100%;
+  height: auto;
+}
+
+#after {
+  width: 100%;
+  height: auto;
+}
+
+/*****************************************************  Titre */
+.lesquestions {
+  padding-top: 100px;
+  padding-left: 90px;
+  font-family: 'Cabin';
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.stylehr {
+  border-top: 3px solid #8c8b8b;
+  width: 10%;
+  text-align: left;
+  margin-left: 20px;
+}
+
+/***************************************************** After/before */
+.divcontenu {
+  padding-top: 30px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.QUOI {
+  font-family: 'Cabin';
+  font-size: 23px;
+}
+
+.OU {
+  font-family: 'Cabin';
+  font-size: 13px;
+  color: grey;
+}
+
+.descriptif {
+  font-family: 'Raleway';
+  font-size: 15px;
+}
+
+.divprojet1 {
+  background: red;
+  height: 400px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.Projet1 {
+  width: 50%;
+  height: 90%;
+  text-align: center;
+}
+
+.wrapper {
+  align-items: center;
+}
+
+/***************************************************** Footer */
+header {
+  display: block;
+  width: 500px;
+  color: #313131;
+  margin: 20px auto;
+  text-align: center;
+  font-size: .8em;
+}
+
+.ba-Slider {
+  background: #212121;
+  border: 1px solid white;
+  margin: 20px auto;
+  overflow: hidden;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.slider {
+  position: absolute;
+  top: calc(50% - 16px);
+  left: calc(50% - 16px);
+  background: transparent url(https://i.imgur.com/ImtbhIo.png);
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+#before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  overflow: hidden;
+}
+
+.ease {
+  transition: width ease .5s, left ease .5s;
+  -moz-transition: width ease .5s, left ease .5s;
+  -webkit-transition: width ease .5s, left ease .5s;
+}
+
+.imagebefore {
+  width: 62vw;
+  height: 31vw;
+}
+
+.imageafter {
+  width: 62vw;
+  height: 31vw;
+}
+
+/***************************************************** Footer */
+
+
+#Footer {
+  font-family: 'Cabin';
+  padding-top: 70px;
+
+}
+
+.lienstyle {
+  color: black;
+}
+
+.lienstyle:hover {
+  color: black;
+}
+
+.lienstyle2 {
+  font-size: 35px;
+  color: black;
+}
+
+.lienstyle2:hover {
+  color: black;
+}
+
+.maildeco {
+  text-decoration: none;
+  color: black;
+}
+
+.maildeco:hover {
+  color: black;
+}
+
+.descriptionfooter {
+  font-family: 'Cabin';
+  font-size: 13px;
+  color: black;
+}
+
+.copyright {
+  font-family: 'Cabin';
+  font-size: 15px;
+}
+
+/***************************************************** Media query */
+@media screen and (max-width: 600px) {
+  .QUOI {
+    color: red;
+  }
+
+  .imagebefore {
+    width: 90vw;
+    height: 45vw;
+  }
+
+  .imageafter {
+    width: 90vw;
+    height: 45vw;
+  }
+}
