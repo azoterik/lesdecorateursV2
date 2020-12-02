@@ -18209,13 +18209,15 @@ footer {
     background-color: rgba(255, 255, 255, 0.2); }
 
 .btn-blue {
-  color: #fff;
-  background-color: #175260;
-  border-color: #175260; }
+  color: black;
+  background-color: #FFFFFF;
+  border-color: #FF9071;
+  -webkit-box-shadow: 3px 3px 18px 5px rgba(140,140,140,0.69);
+box-shadow: 3px 3px 18px 0px rgba(140,140,140,0.69);}
   .btn-blue:hover {
-    color: #fff;
-    background-color: #175260;
-    border-color: #175260; }
+    color: black;
+    background-color: #FFFFFF;
+    border-color: #FF9071; }
   .btn-blue:focus, .btn-blue.focus {
     box-shadow: 0 0 0 0 rgba(38, 79, 186, 0.5); }
   .btn-blue.disabled, .btn-blue:disabled {
