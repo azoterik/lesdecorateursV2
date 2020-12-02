@@ -197,10 +197,12 @@ text-align: center;
 
 .ecritureblanc{
   color: white;
+  font-size: bold;
 }
 
 .descriptifoffre {
   font-family: 'Cabin';
+  font-weight: bold;
 
 }
 
@@ -217,6 +219,11 @@ text-align: center;
 
 .corpexemple{
   padding-bottom: 30px;
+}
+
+.ctaici {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /***************************************************** Team */
