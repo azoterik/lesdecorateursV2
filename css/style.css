@@ -18222,8 +18222,8 @@ box-shadow: 3px 3px 18px 0px rgba(140,140,140,0.69);}
     box-shadow: 0 0 0 0 rgba(38, 79, 186, 0.5); }
   .btn-blue.disabled, .btn-blue:disabled {
     color: #fff;
-    background-color: #0030AE;
-    border-color: #0030AE; }
+    background-color: #FFFFFF;
+    border-color: #FF9071; }
   .btn-blue:not(:disabled):not(.disabled):active, .btn-blue:not(:disabled):not(.disabled).active,
   .show > .btn-blue.dropdown-toggle {
     color: #fff;
