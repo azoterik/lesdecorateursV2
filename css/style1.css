@@ -1,26 +1,26 @@
 
 
 h1 {
-  font-family: 'Cabin';
+  font-family: 'Raleway';
 }
 
 #body {
-  font-family: 'Cabin';
+  font-family: 'Raleway';
 }
 
 /***************************************************** Nav bar */
 
 
 .titrenav {
-  font-family: 'Cabin';
-  font-weight: 900;
+  font-family: 'Raleway';
+  font-weight: 700;
   font-size: 25px;
   color: black;
 }
 
 
 .navbar-collapse {
-  font-family: 'Cabin';
+  font-family: 'Raleway';
   font-weight: 600;
   font-size: 20px;
   color: black;
@@ -104,7 +104,7 @@ box-shadow: 1px 2px 3px 0px grey;
 }
 
 .titre1{
-  font-family: 'Cabin';
+  font-family: 'Raleway';
   color: white;
   font-size: 70px;
   font-weight: 600;
@@ -141,27 +141,30 @@ box-shadow: 1px 2px 3px 0px grey;
 /***************************************************** Explication */
 
 #Explication {
-  background-color: #F5F5F5;
+  background-color: #fbf9f7ff;
 }
 
 .numeroexplication {
   font-size: 80px;
   text-align: center;
-  font-family: 'Cabin';
+  font-family: 'Raleway';
+  font-weight: 600;
 }
 
 .titreexplication {
-  font-size: 25px;
-  font-family: 'Cabin';
+  font-size: 20px;
+  font-family: 'Raleway';
   text-align: center;
+  font-weight: 500;
 }
 
 .detailexplication {
-  font-size: 18px;
-  font-family: 'Cabin';
+  font-size: 16px;
+  font-family: 'Raleway';
   text-align: center;
   padding-left: 30px;
   padding-right: 30px;
+  font-weight: 400;
 }
 
 .image1 {
@@ -184,7 +187,7 @@ box-shadow: 1px 2px 3px 0px grey;
 
 
 .text-block3 {
-font-family: 'Cabin';
+font-family: 'Raleway';
 font-weight: 600;
 font-size: 2.5rem;
 padding-left: 50px;
@@ -195,14 +198,21 @@ text-align: center;
 
 /***************************************************** Offre */
 
+.numeroexplication2 {
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 80px;
+}
+
+
 .ecritureblanc{
   color: white;
-  font-size: bold;
+  font-weight: 500;
 }
 
 .descriptifoffre {
-  font-family: 'Cabin';
-  font-weight: bold;
+  font-family: 'Raleway';
+  font-weight: 500;
 
 }
 
@@ -213,17 +223,8 @@ text-align: center;
 
 /***************************************************** Exemple projets */
 
-.exempleprojet{
-  background: #F9EADD;
-}
-
-.corpexemple{
-  padding-bottom: 30px;
-}
-
-.ctaici {
-  padding-left: 10px;
-  padding-right: 10px;
+.press {
+  background-color: #fbf9f7ff;
 }
 
 /***************************************************** Team */
@@ -235,8 +236,11 @@ text-align: center;
 }
 
 .descriptiondecorateurs{
-  font-family: 'Cabin';
-  font-size: 20px;
+  font-family: 'Raleway';
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 100px;
+  padding-right: 90px;
 }
 
 .icon-arrow-right2:hover{
@@ -246,7 +250,7 @@ text-align: center;
 /***************************************************** Commentaire */
 
 .commentaires {
-  font-family: 'Cabin';
+  font-family: 'Raleway';
   font-size: 10px;
 }
 
@@ -256,12 +260,11 @@ text-align: center;
 }
 
 
-
 /***************************************************** Footer */
 
 
 #footer {
-  font-family: 'Cabin';
+  font-family: 'Raleway';
   margin: 0px;
 }
 
@@ -292,12 +295,12 @@ text-align: center;
 }
 
 .descriptionfooter {
-  font-family: 'Cabin';
+  font-family: 'Raleway';
   font-size: 13px;
   color: black;
 }
 
 .copyright {
-  font-family: 'Cabin';
+  font-family: 'Raleway';
   font-size: 15px;
 }
