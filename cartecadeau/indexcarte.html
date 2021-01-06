@@ -13,6 +13,7 @@
   <!-- Google font  -->
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
 
@@ -22,11 +23,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-
   <!-- Global site tag (gtag.js) - Google Analytics -->
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176126917-1"></script>
-  <script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176126917-1">
     window.dataLayer = window.dataLayer || [];
 
     function gtag() {
@@ -35,6 +34,29 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-176126917-1');
+
+    </script>
+
+    <!-- Load Facebook SDK for JavaScript -->
+          <div id="fb-root"></div>
+          <script>
+            window.fbAsyncInit = function() {
+              FB.init({
+                xfbml            : true,
+                version          : 'v9.0'
+              });
+            };
+
+            (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/fr_FR/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+
   </script>
 
 
@@ -53,62 +75,107 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
             class="burger"><span></span></span></button>
 
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="navdiv">
-              <a class="navtext nav-link" href="/cartecadeau/cartecadeau.html">Carte cadeau✨</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Nos Packs
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="">Pack Mini</a>
+                <a class="dropdown-item" href="">Pack Maxi</a>
+              </div>
             </li>
             <li class="navdiv">
-              <a class="navtext nav-link" href="/Avant:Apres/indexavap.html">Avant/Après</a>
+              <a class="navtext nav-link" href="/cartecadeau/indexcarte.html">Carte cadeau</a>
             </li>
             <li class="navdiv">
               <a class="navtext nav-link" href="/Q&A/indexq&a.html">Q&A</a>
             </li>
             <li class="bouttontop">
-              <a href="https://www.lesdecorateurs.com/" class="myButton" href="">Je commence</a>
+              <a href="#Offre" class="myButton" href="">Je commence</a>
             </li>
           </ul>
         </div>
       </nav>
     </div>
-
-
   </header>
   <!-- header -->
 
-    <h1 class="lesquestions"> Carte cadeau </h1>
-    <hr class="stylehr">
 
-    <!-- Carte cadeau -->
-
-  <div class="container">
-
-
-    <div class="coloneblock row">
-  <a class="lien" href="">
-      <div class="carte1 col-lg-5 col-md-8">
-        <h1 class="part1">Pack Archi</h1>
-          <img class="imagecadeau"src="images/cadeau.svg" alt="">
-        <h2 class="monTexte"> Les Décorateurs</h2>
-        <h1 class="part2">95€</h1>
-      </a>
+  <!-- hero -->
+  <section class="bgcolor text-black hero hero-with-header">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-10 text-center">
+          <h1>Offrez <b>le pack de votre choix</b></h1>
+        </div>
       </div>
-
-
-
-      <div class="carte2 col-lg-5 col-md-8">
-        <a class="lien" href="">
-        <h1 class="part1">Pack Déco</h1>
-        <img class="imagecadeau" src="images/cadeau.svg" alt="">
-        <h2 class="monTexte"> Les Décorateurs</h2>
-        <h1 class="part2">65€</h1>
-        </a>
-      </div>
-
-
     </div>
-  </div>
+  </section>
+  <!-- / hero -->
+
+        <section class="bg-light">
+          <div class="container">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-md-4 pr-md-4 text-center text-md-left">
+                <h2 class="h1">Choisissez votre <b>pack</b></h2>
+                <p>Une fois votre commande finalisée, vous recevrez une carte personnalisée composée d'un code promotion.</p>
+              </div>
+              <div class="col-md-8">
+                <div class="row gutter-2">
+                  <div class="col-md-6" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                    <div class="card card-price rising">
+                      <div class="card-body">
+                        <i class="svg-icon w-50 equal">
+                          <span>
+                            <img src="image2/cartemini.png" alt="Image">
+                          </span>
+                        </i>
+                        <h5 class="card-title">Pack Mini</h5>
+                        <ul class="list-group list-group-minimal text-muted">
+                          <li class="list-group-item">Un moodboard</li>
+                          <li class="list-group-item">Une planche de mobilier</li>
+                          <li class="list-group-item">Une liste de shopping</li>
+                          <li class="list-group-item font-white">Une liste de shopping</li>
+                        </ul>
+                      </div>
+                      <a href="https://lesdecorateurscontact.typeform.com/to/pA6uFaX9" class="card-footer">
+                        <strong class="numeroexplication2">95€</strong>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="250">
+                    <div class="card card-price rising">
+                      <div class="card-body">
+                        <i class="svg-icon w-50 equal">
+                          <span>
+                            <img src="image2/cartemaxi.png" alt="Image">
+                          </span>
+                        </i>
+                        <h5 class="card-title">Pack Maxi</h5>
+                        <ul class="list-group list-group-minimal text-muted">
+                          <li class="list-group-item">Un moodboard</li>
+                          <li class="list-group-item">Des plans 2D et 3D</li>
+                          <li class="list-group-item">Une visite virtuelle à 360°</li>
+                          <li class="list-group-item">Une liste de shopping</li>
+                        </ul>
+                      </div>
+                      <a href="https://lesdecorateurscontact.typeform.com/to/SmkccKca" class="card-footer">
+                        <strong class="numeroexplication2">125€</strong>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- / pricing -->
+  <!-- / pricing -->
+
+
+
 
     <!-- Réseaux sociaux -->
 
@@ -195,7 +262,7 @@
             <a class="lienstyle" href="/Q&A/indexq&a.html">FAQ</a>
           </p>
           <p>
-            <a class="lienstyle" href="/Mentions légales/indexCGV.html">Mentions Légales</a>
+            <a class="lienstyle" href="/Mention légales/mentionslegales.html">Mentions Légales</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -232,7 +299,6 @@
     <script src="js/index.js"></script>
     <script src="js/vendor.js"></script>
     <script src="js/app.js"></script>
-
 </body>
 
 </html>
