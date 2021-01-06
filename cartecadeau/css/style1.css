@@ -1,24 +1,37 @@
+
+
 h1 {
-  font-family: 'Cabin';
+  font-family: 'Raleway';
+}
+
+h2 {
+  font-family: 'Raleway';
 }
 
 #body {
-  font-family: 'Cabin';
+  font-family: 'Raleway';
+}
+
+p {
+  font-family: 'Raleway';
+}
+
+li {
+  font-family: 'Raleway';
 }
 
 /***************************************************** Nav bar */
 
-
 .titrenav {
-  font-family: 'Cabin';
-  font-weight: 900;
+  font-family: 'Raleway';
+  font-weight: 700;
   font-size: 25px;
   color: black;
 }
 
 
 .navbar-collapse {
-  font-family: 'Cabin';
+  font-family: 'Raleway';
   font-weight: 600;
   font-size: 20px;
   color: black;
@@ -34,7 +47,7 @@ h1 {
   display: inline-block;
   cursor: pointer;
   color: #fcf7fc;
-  font-family: 'Cabin';
+  font-family: 'Raleway';
   font-size: 13px;
   padding: 8px 20px;
   text-decoration: none;
@@ -61,14 +74,14 @@ box-shadow: 1px 2px 3px 0px grey;
   display: inline-block;
   cursor: pointer;
   color: white;
-  font-family: 'Cabin';
+  font-family: 'Raleway';
   font-size: 14px;
   padding: 8px 20px;
   text-decoration: none;
 }
 
 .myButton6:hover {
-  background-color: #175260;
+  background-color: #af502b;
   text-decoration: none;
   color: white;
 }
@@ -90,107 +103,30 @@ box-shadow: 1px 2px 3px 0px grey;
     margin-top: 0px;
 }
 
-
-/*****************************************************  Titre */
-
-.lesquestions {
-  padding-top: 110px;
-  padding-left: 90px;
-  font-family: 'Cabin';
-  font-size: 40px;
-  font-weight: 700;
+.ecartnav{
+  padding-right : 12px;
 }
 
-.stylehr {
-  border-top: 3px solid #8c8b8b;
-  width: 10%;
-  text-align: left;
-  margin-left: 20px;
+/***************************************************** Titre */
+.bgcolor {
+background-color: #EEDED3;
 }
 
-/***************************************************** cartes cadeau */
-
-
-.carte1{
-  background-color: #F7F0E8;
-  align-items: center;
-  border-left: : 10%;
-  box-shadow: 0px 1px 19px -7px rgba(179, 175, 175, 1);
-  margin-bottom: 100px;
-  border-radius: 15px;
-  box-shadow: -7px 6px 5px 3px #DAB696;
-}
-
-.carte1:hover {
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
-
-.carte2{
-  background-color: #F7F0E8;
-  align-items: center;
-  border-left: : 10%;
-  box-shadow: 0px 1px 19px -7px rgba(179, 175, 175, 1);
-  margin-bottom: 100px;
-  margin-left: 40px;
-  border-radius: 15px;
-  box-shadow: -7px 6px 5px 3px #DAB696;
-}
-
-.carte2:hover {
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
-
-
-.coloneblock {
-  padding-top: 8%;
-  padding-left: 12%;
-}
-
-.part1{
-  padding-top: 5%;
-  font-size: 25px;
+.numeroexplication2 {
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Raleway';
   font-weight: 600;
 }
 
-.part2{
-  font-size: 45px;
-  font-weight: 700;
-  padding-left: 5%;
-  position: relative;
-  z-index: 0;
+.font-white {
+  color: white;
 }
-
-.monTexte {
-  font-family: 'Cabin';
-  font-size: 15px;
-  padding-left:95%;
-  writing-mode: vertical-lr;
-  text-orientation: mixed;
-  position: relative;
-  z-index: 2;
-}
-
-.imagecadeau {
-  height: 300px;
-  position: absolute;
-  bottom: 15px;
-  padding-left: 30%;
-}
-
-
-.lien {
-  color: black;
-}
-
-.lien:hover{
-  color: black;
-  text-decoration: none;
-}
-
 /***************************************************** Footer */
 
+
 #footer {
-  font-family: 'Cabin';
+  font-family: 'Raleway';
   margin: 0px;
 }
 
@@ -221,12 +157,12 @@ box-shadow: 1px 2px 3px 0px grey;
 }
 
 .descriptionfooter {
-  font-family: 'Cabin';
+  font-family: 'Raleway';
   font-size: 13px;
   color: black;
 }
 
 .copyright {
-  font-family: 'Cabin';
+  font-family: 'Raleway';
   font-size: 15px;
 }
