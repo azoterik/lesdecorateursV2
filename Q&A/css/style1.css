@@ -1,26 +1,38 @@
 
 
 h1 {
-  font-family: 'Cabin';
+  font-family: 'Raleway';
+}
+
+h2 {
+  font-family: 'Raleway';
 }
 
 #body {
-  font-family: 'Cabin';
+  font-family: 'Raleway';
+}
+
+p {
+  font-family: 'Raleway';
+}
+
+li {
+  font-family: 'Raleway';
 }
 
 /***************************************************** Nav bar */
 
 
 .titrenav {
-  font-family: 'Cabin';
-  font-weight: 900;
+  font-family: 'Raleway';
+  font-weight: 700;
   font-size: 25px;
   color: black;
 }
 
 
 .navbar-collapse {
-  font-family: 'Cabin';
+  font-family: 'Raleway';
   font-weight: 600;
   font-size: 20px;
   color: black;
@@ -36,7 +48,7 @@ h1 {
   display: inline-block;
   cursor: pointer;
   color: #fcf7fc;
-  font-family: 'Cabin';
+  font-family: 'Raleway';
   font-size: 13px;
   padding: 8px 20px;
   text-decoration: none;
@@ -63,14 +75,14 @@ box-shadow: 1px 2px 3px 0px grey;
   display: inline-block;
   cursor: pointer;
   color: white;
-  font-family: 'Cabin';
+  font-family: 'Raleway';
   font-size: 14px;
   padding: 8px 20px;
   text-decoration: none;
 }
 
 .myButton6:hover {
-  background-color: #175260;
+  background-color: #af502b;
   text-decoration: none;
   color: white;
 }
@@ -92,13 +104,17 @@ box-shadow: 1px 2px 3px 0px grey;
     margin-top: 0px;
 }
 
+.ecartnav{
+  padding-right : 12px;
+}
+
 
 /*****************************************************  Titre */
 
 .lesquestions {
   padding-top: 110px;
   padding-left: 90px;
-  font-family: 'Cabin';
+  font-family: 'Raleway';
   font-size: 40px;
   font-weight: 700;
 }
@@ -115,6 +131,7 @@ box-shadow: 1px 2px 3px 0px grey;
 .qadiv {
   margin: 0 auto;
   padding-left: 4rem;
+  padding-top: 3rem;
   padding-right: 4rem;
   padding-bottom: 4rem;
   width: 48rem;
@@ -123,7 +140,8 @@ box-shadow: 1px 2px 3px 0px grey;
 
 .sous-titre {
 font-family: 'Cabin';
-font-weight: 600;
+font-size: 1.2rem;
+font-weight: 500;
 }
 
 .accordion .accordion-item {
@@ -154,11 +172,11 @@ font-weight: 600;
 .accordion button:hover::after, .accordion button:focus::after {
   cursor: pointer;
   color: #175260;
-  border: 1px solid #175260;
+
 }
 .accordion button .accordion-title {
   padding: 1em 1.5em 1em 0;
-  font-family: 'Cabin';
+  font-family: 'Raleway';
 }
 .accordion button .icon {
   display: inline-block;
@@ -215,16 +233,15 @@ font-weight: 600;
   font-size: 1rem;
   font-weight: 300;
   margin: 2em 0;
-    font-family: 'Cabin';
+  font-family: 'Raleway';
 }
-
 
 
 /***************************************************** Footer */
 
 
 #footer {
-  font-family: 'Cabin';
+  font-family: 'Raleway';
   margin: 0px;
 }
 
@@ -255,12 +272,12 @@ font-weight: 600;
 }
 
 .descriptionfooter {
-  font-family: 'Cabin';
+  font-family: 'Raleway';
   font-size: 13px;
   color: black;
 }
 
 .copyright {
-  font-family: 'Cabin';
+  font-family: 'Raleway';
   font-size: 15px;
 }
