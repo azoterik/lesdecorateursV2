@@ -281,3 +281,26 @@ font-weight: 500;
   font-family: 'Raleway';
   font-size: 15px;
 }
+
+/***************************************************** Media query */
+@media screen and (max-width: 740px) {
+
+  .qadiv{
+padding-left: 20px;
+width: 100%;
+  }
+
+  .sous-titre {
+  font-size: 19px;;
+  }
+
+  .accordion-title{
+    font-size: 15px;;
+  }
+p {
+    font-size: 2.5vw;
+  }
+}
+
+
+}
