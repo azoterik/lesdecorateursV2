@@ -1,0 +1,204 @@
+
+
+
+h1 {
+  font-family: 'Raleway';
+}
+
+h2 {
+  font-family: 'Raleway';
+}
+
+h4 {
+  font-family: 'Raleway';
+}
+
+span {
+  font-family: 'Raleway';
+}
+
+#body {
+  font-family: 'Raleway';
+}
+
+p {
+  font-family: 'Raleway';
+  color: black;
+  font-weight: 500;
+}
+
+li {
+  font-family: 'Raleway';
+}
+
+
+/***************************************************** Nav bar */
+
+.titrenav {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 25px;
+  color: black;
+}
+
+
+.navbar-collapse {
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+}
+
+.navtext:hover {
+  color: #175260;
+}
+
+.myButton {
+  background-color: #000000;
+  border-radius: 35px;
+  display: inline-block;
+  cursor: pointer;
+  color: #fcf7fc;
+  font-family: 'Raleway';
+  font-size: 13px;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+.myButton:hover {
+box-shadow: 1px 2px 3px 0px grey;
+
+  text-decoration: none;
+  color: white;
+  border: 0px solid #ffffff;
+  border-radius: none;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.myButton6 {
+  background-color: black;
+  border-radius: 35px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-family: 'Raleway';
+  font-size: 14px;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+.myButton6:hover {
+  background-color: #af502b;
+  text-decoration: none;
+  color: white;
+}
+
+.myButton6:active {
+  position: relative;
+  top: 1px;
+}
+
+.header-sticky:hover{
+  background: white;
+  box-shadow: 0px 8px 17px -3px rgba(0,0,0,0.1);
+}
+
+.titrenav {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.ecartnav{
+  padding-right : 12px;
+}
+
+
+
+/*****************************************************  Titre */
+
+.lesquestions {
+  padding-top: 110px;
+  padding-left: 90px;
+  font-family: 'Raleway';
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.stylehr {
+  border-top: 3px solid #8c8b8b;
+  width: 10%;
+  text-align: left;
+  margin-left: 20px;
+}
+
+
+.bgcolor {
+background-color: #F9F7F5;
+}
+
+
+/*****************************************************  Titre */
+
+
+.team1 {
+width: 400px;
+height: auto;
+margin-left: 80px;
+}
+
+.teamcore {
+  padding-bottom: 10px;
+}
+
+
+/***************************************************** Footer */
+
+
+#footer {
+  font-family: 'Raleway';
+  margin: 0px;
+}
+
+.lienstyle {
+  color: black;
+}
+
+.lienstyle:hover {
+  color: black;
+}
+
+.lienstyle2 {
+  font-size: 35px;
+  color: black;
+}
+
+.lienstyle2:hover {
+  color: black;
+}
+
+.maildeco {
+  text-decoration: none;
+  color: black;
+}
+
+.maildeco:hover {
+  color: black;
+}
+
+.descriptionfooter {
+  font-family: 'Raleway';
+  font-size: 13px;
+  color: black;
+}
+
+.copyright {
+  font-family: 'Raleway';
+  font-size: 15px;
+}
