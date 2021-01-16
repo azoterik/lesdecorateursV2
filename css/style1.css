@@ -1,6 +1,19 @@
 
 
+
 h1 {
+  font-family: 'Raleway';
+}
+
+h2 {
+  font-family: 'Raleway';
+}
+
+h4 {
+  font-family: 'Raleway';
+}
+
+span {
   font-family: 'Raleway';
 }
 
@@ -8,8 +21,18 @@ h1 {
   font-family: 'Raleway';
 }
 
-/***************************************************** Nav bar */
+p {
+  font-family: 'Raleway';
+  color: black;
+  font-weight: 500;
+}
 
+li {
+  font-family: 'Raleway';
+}
+
+
+/***************************************************** Nav bar */
 
 .titrenav {
   font-family: 'Raleway';
@@ -36,7 +59,7 @@ h1 {
   display: inline-block;
   cursor: pointer;
   color: #fcf7fc;
-  font-family: 'Cabin';
+  font-family: 'Raleway';
   font-size: 13px;
   padding: 8px 20px;
   text-decoration: none;
@@ -63,7 +86,7 @@ box-shadow: 1px 2px 3px 0px grey;
   display: inline-block;
   cursor: pointer;
   color: white;
-  font-family: 'Cabin';
+  font-family: 'Raleway';
   font-size: 14px;
   padding: 8px 20px;
   text-decoration: none;
@@ -96,171 +119,42 @@ box-shadow: 1px 2px 3px 0px grey;
   padding-right : 12px;
 }
 
-/***************************************************** Titre */
 
-.imageaccueil {
-  width: 100%;
-  height: auto;
-}
 
-.titre1{
+/*****************************************************  Titre */
+
+.lesquestions {
+  padding-top: 110px;
+  padding-left: 90px;
   font-family: 'Raleway';
-  color: white;
-  font-size: 70px;
-  font-weight: 600;
+  font-size: 40px;
+  font-weight: 700;
 }
 
-.myButton2 {
-  background-color: white;
-  border-radius: 28px;
-  display: inline-block;
-  cursor: pointer;
-  color: black;
-  font-family: 'Cabin';
-  font-size: 18px;
-  font-weight: bold;
-  padding: 20px 80px;
-  text-decoration: none;
-  text-shadow: 0px 0px 0px #2f6627;
-  position: relative;
-  top: 40px;
-  left: 10px;
-  z-index: 1;
-}
-
-.myButton2:hover {
-  background-color: #eeeeee;
-  color: black;
-}
-
-.myButton2:active {
-  position: relative;
+.stylehr {
+  border-top: 3px solid #8c8b8b;
+  width: 10%;
+  text-align: left;
+  margin-left: 20px;
 }
 
 
-/***************************************************** Explication */
-
-#Explication {
-  background-color: #fbf9f7ff;
-}
-
-.numeroexplication {
-  font-size: 80px;
-  text-align: center;
-  font-family: 'Raleway';
-  font-weight: 600;
-}
-
-.titreexplication {
-  font-size: 20px;
-  font-family: 'Raleway';
-  text-align: center;
-  font-weight: 500;
-}
-
-.detailexplication {
-  font-size: 16px;
-  font-family: 'Raleway';
-  text-align: center;
-  padding-left: 30px;
-  padding-right: 30px;
-  font-weight: 400;
-}
-
-.image1 {
-  width: 200px;
-  margin-left: 100px;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.image2 {
-  width: 220px;
-  margin-left: 100px;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.bgcolor {
+background-color: #F9F7F5;
 }
 
 
-.text-block3 {
-font-family: 'Raleway';
-font-weight: 600;
-font-size: 2.5rem;
-padding-left: 50px;
-padding-bottom: 50px;
-text-align: center;
+/*****************************************************  Titre */
+
+
+.team1 {
+width: 400px;
+height: auto;
+margin-left: 80px;
 }
 
-
-/***************************************************** Offre */
-
-.numeroexplication2 {
-  font-family: 'Raleway';
-  font-weight: 600;
-  font-size: 80px;
-}
-
-
-.ecritureblanc{
-  color: white;
-  font-weight: 500;
-}
-
-.descriptifoffre {
-  font-family: 'Raleway';
-  font-weight: 500;
-
-}
-
-.imagedescription {
-  width: 180px;
-  height: auto;
-}
-
-.ensvp {
-font-weight: 700;
-}
-
-/***************************************************** Exemple projets */
-
-.press {
-  background-color: #fbf9f7ff;
-}
-
-/***************************************************** Team */
-
-.user-photo{
-   border-radius: 50%;
-   width: 80px;
-   height: 80px;
-}
-
-.descriptiondecorateurs{
-  font-family: 'Raleway';
-  font-size: 18px;
-  font-weight: 400;
-  padding-left: 100px;
-  padding-right: 90px;
-}
-
-.icon-arrow-right2:hover{
-  color: black;
-}
-
-/***************************************************** Commentaire */
-
-.commentaires {
-  font-family: 'Raleway';
-  font-size: 10px;
-}
-
-.paddingreg{
-  padding-top: 50px;
-  padding-bottom: 50px;
+.teamcore {
+  padding-bottom: 10px;
 }
 
 
