@@ -148,21 +148,27 @@ height: auto;
 }
 
 .press {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
+.logo1 {
+  width: 90px;
+  height: auto;
 }
 
 
 /***************************************************** concept rapide */
 
 .explicationconcept {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 600;
   text-align: center;
   padding-left: 20%;
   padding-right: 20%;
   font-family: 'Raleway';
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .textesuper {
@@ -359,4 +365,3 @@ height: auto;
   font-family: 'Raleway';
   font-size: 15px;
 }
-
