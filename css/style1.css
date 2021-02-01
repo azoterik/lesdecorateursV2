@@ -168,7 +168,7 @@ height: auto;
   padding-right: 20%;
   font-family: 'Raleway';
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 80px;
 }
 
 .textesuper {
@@ -212,21 +212,30 @@ height: auto;
 }
 
 .image1 {
-  width: 200px;
-  margin-left: 100px;
+  width: 280px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: drop-shadow(5px 5px 2px #F5EEE8);
+}
+
+.image2 {
+  width: 400px;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.image2 {
-  width: 220px;
-  margin-left: 100px;
+.image3 {
+  width: 320px;
+
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  filter: drop-shadow(5px 5px 2px #F5EEE8);
 }
 
 
