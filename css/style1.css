@@ -193,6 +193,7 @@ height: auto;
   text-align: center;
   font-family: 'Raleway';
   font-weight: 600;
+  margin-bottom: 10px;
 }
 
 .titreexplication {
@@ -221,7 +222,7 @@ height: auto;
 }
 
 .image2 {
-  width: 400px;
+  width: 380px;
   height: auto;
   display: block;
   margin-left: auto;
@@ -229,8 +230,8 @@ height: auto;
 }
 
 .image3 {
-  width: 320px;
-
+  width: 360px;
+  padding-bottom: 30px;
   height: auto;
   display: block;
   margin-left: auto;
@@ -247,6 +248,7 @@ padding-left: 50px;
 padding-bottom: 50px;
 text-align: center;
 }
+
 
 
 /***************************************************** Offre */
