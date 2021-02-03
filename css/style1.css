@@ -286,6 +286,33 @@ text-align: center;
 font-weight: 700;
 }
 
+
+
+/***************************************************** Guarantee */
+
+.detail {
+  font-size: 20px;
+}
+
+.couleuricone {
+  color: #D1AF7D;
+}
+
+.titresatisfait {
+  font-style: 'Raleway';
+  font-weight: '800';
+  font-size: 30px;
+}
+
+.contourdiv {
+border: 1px solid;
+border-color: #D1AF7D;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+
+
 /***************************************************** Communauté */
 
 #Communaute {
