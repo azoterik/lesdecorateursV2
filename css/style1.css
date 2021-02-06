@@ -261,7 +261,7 @@ text-align: center;
 .numeroexplication2 {
   font-family: 'Raleway';
   font-weight: 600;
-  font-size: 80px;
+  font-size: 60px;
 }
 
 
@@ -286,7 +286,9 @@ text-align: center;
 font-weight: 700;
 }
 
-
+.piecetypo {
+  font-size: 20px;
+}
 
 /***************************************************** Guarantee */
 
@@ -310,8 +312,6 @@ border-color: #D1AF7D;
 padding-top: 20px;
 padding-bottom: 20px;
 }
-
-
 
 /***************************************************** Communauté */
 
