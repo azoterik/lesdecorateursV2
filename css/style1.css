@@ -163,8 +163,8 @@ height: auto;
 .explicationconcept {
   font-size: 2.5rem;
   font-weight: 600;
-  text-align: center;
-  padding-left: 20%;
+  text-align: left;
+  padding-left: 5%;
   padding-right: 20%;
   font-family: 'Raleway';
   padding-top: 20px;
@@ -289,6 +289,17 @@ font-weight: 700;
 .piecetypo {
   font-size: 20px;
 }
+
+
+/***************************************************** RDV BOX */
+
+.rdvbox {
+  color: black;
+  font-family: 'Raleway';
+  padding-bottom: 30px;
+}
+
+
 
 /***************************************************** Guarantee */
 
