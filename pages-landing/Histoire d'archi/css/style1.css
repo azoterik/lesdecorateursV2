@@ -1,0 +1,208 @@
+
+
+h1 {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 40px
+}
+
+h3 {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#body {
+  font-family: 'Raleway';
+}
+
+.image1 {
+  height: auto;
+  weight: 600px;
+}
+
+a { color: inherit; }
+
+a:hover { color: inherit; }
+
+
+/***************************************************** Nav bar */
+/***************************************************** Nav bar */
+
+.titrenav {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 25px;
+  color: black;
+}
+
+
+.navbar-collapse {
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+}
+
+.navtext:hover {
+  color: #175260;
+}
+
+.myButton {
+  background-color: #000000;
+  border-radius: 35px;
+  display: inline-block;
+  cursor: pointer;
+  color: #fcf7fc;
+  font-family: 'Cabin';
+  font-size: 13px;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+.myButton:hover {
+box-shadow: 1px 2px 3px 0px grey;
+
+  text-decoration: none;
+  color: white;
+  border: 0px solid #ffffff;
+  border-radius: none;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.myButton6 {
+  background-color: black;
+  border-radius: 35px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-family: 'Cabin';
+  font-size: 14px;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+.myButton6:hover {
+  background-color: #af502b;
+  text-decoration: none;
+  color: white;
+}
+
+.myButton6:active {
+  position: relative;
+  top: 1px;
+}
+
+.header-sticky:hover{
+  background: white;
+  box-shadow: 0px 8px 17px -3px rgba(0,0,0,0.1);
+}
+
+.titrenav {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.ecartnav{
+  padding-right : 12px;
+}
+/***************************************************** Titre */
+
+.texteuni1 {
+  background-color: #F6EEE3;
+  padding-top: 8%;
+  padding-left: 8%;
+}
+
+.sectionid {
+  padding-top: 100px;
+}
+
+.imagespec {
+  padding: 0px
+}
+
+.textspect {
+  color: black;
+  font-family: 'Raleway';
+
+}
+
+/***************************************************** Détail */
+
+
+.h3detail {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 15px;
+  padding-top: 20px;
+  color: #DBC997;
+}
+
+.h2detail {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.paddingarticles {
+  padding-bottom: 80px;
+}
+
+
+/***************************************************** Footer */
+
+
+#footer {
+  font-family: 'Raleway';
+  margin: 0px;
+}
+
+.reseaux {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.lienstyle {
+  color: black;
+}
+
+.lienstyle:hover {
+  color: black;
+}
+
+.lienstyle2 {
+  font-size: 35px;
+  color: black;
+}
+
+.lienstyle2:hover {
+  color: black;
+}
+
+.maildeco {
+  text-decoration: none;
+  color: black;
+}
+
+.maildeco:hover {
+  color: black;
+}
+
+.descriptionfooter {
+  font-family: 'Raleway';
+  font-size: 13px;
+  color: black;
+}
+
+.copyright {
+  font-family: 'Raleway';
+  font-size: 15px;
+}
