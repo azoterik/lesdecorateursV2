@@ -221,22 +221,25 @@ background-color: #FBF9F8;
 }
 
 .image1 {
-height: 300px;
+height: 200px;
 width: auto;
 padding-left: 100px;
 }
 
 .image2 {
-  height: 300px;
+  height: 200px;
   width: auto;
   padding-left: 70px;
 }
 
 .image3 {
-  height: 300px;
+  height: 200px;
   width: auto;
   padding-left: 80px;
+}
 
+.paddingexplication {
+  padding-top: 70px;
 }
 
 
