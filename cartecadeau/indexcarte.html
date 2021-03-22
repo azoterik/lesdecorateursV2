@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Décorateurs et Architectes d'intérieur en ligne - Les Décorateurs</title>
+  <title>Votre Décoration d'intérieur en ligne - Les Décorateurs</title>
+  <meta property="og:title" content="The Rock" />
+  <meta property="og:type" content="Decoration d'interieur" />
+  <meta property="og:url" content="https://www.lesdecorateurs.com/" />
+  <meta property="og:image" content="image2/accueil3.png" />
   <link rel="icon" href="image2/favicon.ico">
   <link rel="stylesheet" href="css/vendor.css" />
   <link rel="stylesheet" href="css/style.css" />
@@ -13,15 +15,17 @@
   <!-- Google font  -->
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <!-- fontawesome  -->
 
-    <!-- fontawesome  -->
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
 
@@ -34,31 +38,35 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-176126917-1');
-
-    </script>
-
-    <!-- Load Facebook SDK for JavaScript -->
-          <div id="fb-root"></div>
-          <script>
-            window.fbAsyncInit = function() {
-              FB.init({
-                xfbml            : true,
-                version          : 'v9.0'
-              });
-            };
-
-            (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = 'https://connect.facebook.net/fr_FR/sdk/xfbml.customerchat.js';
-            fjs.parentNode.insertBefore(js, fjs);
-          }(document, 'script', 'facebook-jssdk'));
-        </script>
-
-
   </script>
 
+  <!-- Facebook Pixel Code -->
+  <script>
+    ! function(f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function() {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '925994461472666');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=925994461472666&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
+
+  <meta name="p:domain_verify" content="3ed05f2aacf221f75a2118005f10b264" />
 
 </head>
 
@@ -66,7 +74,7 @@
 
   <!-- header -->
   <header class="header-sticky header-dark">
-    <div class="container container1">
+    <div class="container container1 font2">
 
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navtext navbar-brand titrenav" href="https://www.lesdecorateurs.com">
@@ -78,30 +86,20 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="/blog-landing/blog.html" id="navbarDropdown-2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Nos Histoires
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Comment ça marche ?
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="/blog-landing/blog.html">Le Blog</a>
-                <a class="dropdown-item" href="/pages-landing/Lifestyle/lifestyle.html">Lifestyle</a>
-                <a class="dropdown-item" href="/pages-landing/Histoire d'archi/histoirearchi.html">Histoire d'archi</a>
-                <a class="dropdown-item" href="/pages-landing/Home tour/hometour.html">Home tour</a>
+                <a class="dropdown-item" href="/packmini/landing.html">Fonctionnement</a>
+                <a class="dropdown-item" href="/Team/team.html">Les Décorateurs</a>
+                <a class="dropdown-item" href="/Q&A/indexq&a.html">Q&A</a>
               </div>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Nos Packs
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="/packmini/landing.html">Pack Mini</a>
-                <a class="dropdown-item" href="/packmaxi/landing.html">Pack Maxi</a>
-              </div>
+            <li class="navdiv">
+              <a class="navtext nav-link" href="/Q&A/indexq&a.html">Blog</a>
             </li>
             <li class="navdiv">
               <a class="navtext nav-link" href="/cartecadeau/indexcarte.html">Carte cadeau</a>
-            </li>
-            <li class="navdiv">
-              <a class="navtext nav-link" href="/Q&A/indexq&a.html">Q&A</a>
             </li>
             <li class="bouttontop">
               <a href="https://lesdecorateurscontact.typeform.com/to/VujW3gT0" class="myButton" href="">Quizz de style</a>
@@ -130,7 +128,7 @@
           <div class="container">
             <div class="row align-items-center justify-content-center">
               <div class="col-md-4 pr-md-4 text-center text-md-left">
-                <h2 class="h1">Choisissez votre <b>pack</b></h2>
+                <h2 class="h1 font1">Choisissez votre <b>pack</b></h2>
                 <p class="fontcolor">Une fois votre commande finalisée, vous recevrez une carte personnalisée composée d'un code promotion.</p>
                 <p class="fontcolor">Si vous avez des questions réservez un rendez-vous avec un membre de notre équipe.</p>
                 <a href="https://calendly.com/lesdecorateurs/rencontre-avec-les-decorateurs" target="_blank" class="btn btn-light btn-rounded px-5">Prenez RDV</a>
@@ -140,17 +138,13 @@
                   <div class="col-md-6" data-aos="fade-up" data-aos-anchor-placement="top-center">
                     <div class="card rising">
                       <div class="card-body">
-                        <i class="svg-icon w-50 equal">
-                          <span>
-                            <img src="images/cartemini.png" alt="Image">
-                          </span>
-                        </i>
-                        <h5 class="card-title">Pack Mini</h5>
+                        <h5 class="card-title font1"><b>Pack Mini</b></h5>
+                        <p style="color : black;">Pour une chambre, une entrée ou un bureau.</p>
                         <ul class="list-group list-group-minimal text-muted">
                           <li class="list-group-item">Un moodboard</li>
-                          <li class="list-group-item">Des planches de visualisation</li>
+                          <li class="list-group-item">Des plans 2D et 3D</li>
+                          <li class="list-group-item">Une visite virtuelle à 360°</li>
                           <li class="list-group-item">Une liste de shopping</li>
-                          <li class="list-group-item font-white">Une liste de shopping</li>
                           <li class="list-group-item">Echanges illimités pendant 7 jours avec votre Décorateur</li>
                         </ul>
                       </div>
@@ -162,12 +156,8 @@
                   <div class="col-md-6" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="250">
                     <div class="card rising">
                       <div class="card-body">
-                        <i class="svg-icon w-50 equal">
-                          <span>
-                            <img src="images/cartemaxi.png" alt="Image">
-                          </span>
-                        </i>
-                        <h5 class="card-title">Pack Maxi</h5>
+                        <h5 class="card-title font1"><b>Pack Maxi</b></h5>
+                        <p style="color : black;">Pour un salon, une salle à manger, une salle de bain ou une cuisine.</p>
                         <ul class="list-group list-group-minimal text-muted">
                           <li class="list-group-item">Un moodboard</li>
                           <li class="list-group-item">Des plans 2D et 3D</li>
