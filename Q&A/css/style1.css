@@ -1,12 +1,13 @@
-
-
-
 h1 {
-  font-family: 'Raleway';
+  font-family: 'Cormorant Garamond';
 }
 
 h2 {
-  font-family: 'Raleway';
+  font-family: 'Cormorant Garamond';
+}
+
+.font1 {
+  font-family: 'Cormorant Garamond';  
 }
 
 #body {
@@ -312,4 +313,3 @@ p {
 
 
 }
-
