@@ -1,11 +1,15 @@
 
 
 h1 {
-  font-family: 'Raleway';
+  font-family: 'Cormorant Garamond';
 }
 
 h2 {
-  font-family: 'Raleway';
+  font-family: 'Cormorant Garamond';
+}
+
+.font1 {
+  font-family: 'Cormorant Garamond';
 }
 
 #body {
@@ -113,14 +117,14 @@ box-shadow: 1px 2px 3px 0px grey;
 
 /***************************************************** Titre */
 .bgcolor {
-background-color: #FFDEE2;
+
 }
 
 .numeroexplication2 {
-  font-size: 60px;
+  font-size: 80px;
   text-align: center;
-  font-family: 'Raleway';
-  font-weight: 600;
+  font-family: 'Cormorant Garamond';
+  font-weight: 800;
 }
 
 .font-white {
