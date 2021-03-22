@@ -1,12 +1,10 @@
 
-
-
 h1 {
-  font-family: 'Raleway';
+  font-family: 'Cormorant Garamond';
 }
 
 h2 {
-  font-family: 'Raleway';
+  font-family: 'Cormorant Garamond';
 }
 
 h4 {
@@ -30,6 +28,16 @@ p {
 li {
   font-family: 'Raleway';
 }
+
+.font1 {
+  font-family: 'Cormorant Garamond';
+}
+
+
+.font2  {
+  font-family: 'Raleway';
+}
+
 
 
 /***************************************************** Nav bar */
