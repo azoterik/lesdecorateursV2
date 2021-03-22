@@ -1,17 +1,43 @@
-
-
 h1 {
+    font-family: 'Cormorant Garamond';
+    font-size: 50px;
+    font-weight: 900;
+    padding-left: 35px;
+}
+
+h2 {
+    font-family: 'Cormorant Garamond';
+    font-size: 30px;
+    font-weight: 900;
+}
+
+h3 {
+  font-family: 'Cormorant Garamond';
+  font-size: 35px;
+  font-weight: 800;
+}
+
+p {
+    font-family: 'Raleway';
+    color: black;
+}
+
+.font1 {
+  font-family: 'Cormorant Garamond';
+}
+
+
+.font2  {
   font-family: 'Raleway';
 }
 
-#body {
+.font3  {
   font-family: 'Raleway';
+  font-size: 15px;
 }
-
 /***************************************************** Nav bar */
 
 .titrenav {
-  font-family: 'Raleway';
   font-weight: 700;
   font-size: 25px;
   color: black;
@@ -19,7 +45,6 @@ h1 {
 
 
 .navbar-collapse {
-  font-family: 'Raleway';
   font-weight: 600;
   font-size: 20px;
   color: black;
@@ -32,10 +57,10 @@ h1 {
 .myButton {
   background-color: #000000;
   border-radius: 35px;
+  font-family: 'Raleway';
   display: inline-block;
   cursor: pointer;
   color: #fcf7fc;
-  font-family: 'Cabin';
   font-size: 13px;
   padding: 8px 20px;
   text-decoration: none;
@@ -43,7 +68,6 @@ h1 {
 
 .myButton:hover {
 box-shadow: 1px 2px 3px 0px grey;
-
   text-decoration: none;
   color: white;
   border: 0px solid #ffffff;
@@ -57,12 +81,12 @@ box-shadow: 1px 2px 3px 0px grey;
 
 .myButton6 {
   background-color: black;
+  font-family: 'Raleway';
   border-radius: 35px;
   border: 1px solid #ffffff;
   display: inline-block;
   cursor: pointer;
   color: white;
-  font-family: 'Cabin';
   font-size: 14px;
   padding: 8px 20px;
   text-decoration: none;
@@ -91,10 +115,14 @@ box-shadow: 1px 2px 3px 0px grey;
     margin-top: 0px;
 }
 
-.ecartnav{
-  padding-right : 12px;
+
+.nav-item {
+  padding-left: 20px;
 }
 
+.fontcolor {
+  color: black;
+}
 /***************************************************** Titre */
 
 .imageaccueil {
@@ -102,20 +130,13 @@ box-shadow: 1px 2px 3px 0px grey;
   height: auto;
 }
 
-.titre1{
-  font-family: 'Raleway';
-  color: black;
-  font-size: 70px;
-  font-weight: 600;
-}
-
 .myButton2 {
   background-color: white;
+  font-family: 'Raleway';
   border-radius: 28px;
   display: inline-block;
   cursor: pointer;
   color: black;
-  font-family: 'Cabin';
   font-size: 18px;
   font-weight: bold;
   padding: 20px 80px;
@@ -136,6 +157,9 @@ box-shadow: 1px 2px 3px 0px grey;
   position: relative;
 }
 
+.titrepremier {
+  font-size: 80px;
+}
 
 /***************************************************** Press */
 
@@ -160,19 +184,9 @@ height: auto;
 
 /***************************************************** concept rapide */
 
-.explicationconcept {
-  font-size: 2.5rem;
-  font-weight: 600;
-  text-align: left;
-  padding-left: 5%;
-  padding-right: 20%;
-  font-family: 'Raleway';
-  padding-top: 20px;
-  padding-bottom: 80px;
-}
 
 .textesuper {
-  background-color: #F8F4F0;
+  background-color: #F6F1EB;
   font-weight: 700;
 }
 
@@ -185,27 +199,21 @@ height: auto;
 
 #Explication {
   padding-top: 60px;
-  background-color: #FFF9F4;
+background-color: #FBF9F8;
 }
 
 .numeroexplication {
-  font-size: 80px;
+  font-size: 85px;
   text-align: center;
-  font-family: 'Raleway';
   font-weight: 600;
   margin-bottom: 10px;
 }
 
 .titreexplication {
-  font-size: 20px;
-  font-family: 'Raleway';
   text-align: center;
-  font-weight: 500;
 }
 
 .detailexplication {
-  font-size: 16px;
-  font-family: 'Raleway';
   text-align: center;
   padding-left: 30px;
   padding-right: 30px;
@@ -213,35 +221,26 @@ height: auto;
 }
 
 .image1 {
-  width: 280px;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  filter: drop-shadow(5px 5px 2px #F5EEE8);
+height: 300px;
+width: auto;
+padding-left: 100px;
 }
 
 .image2 {
-  width: 380px;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  height: 300px;
+  width: auto;
+  padding-left: 70px;
 }
 
 .image3 {
-  width: 360px;
-  padding-bottom: 30px;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  filter: drop-shadow(5px 5px 2px #F5EEE8);
+  height: 300px;
+  width: auto;
+  padding-left: 80px;
+
 }
 
 
 .text-block3 {
-font-family: 'Raleway';
 font-weight: 600;
 font-size: 2.5rem;
 padding-left: 50px;
@@ -249,21 +248,18 @@ padding-bottom: 50px;
 text-align: center;
 }
 
-
-
 /***************************************************** Offre */
 
 #Offre {
   padding-top: 50px;
   padding-bottom: 50px;
+  background-color: #FBF9F8;
 }
 
 .numeroexplication2 {
-  font-family: 'Raleway';
-  font-weight: 600;
-  font-size: 60px;
+  font-weight: 500;
+  font-size: 80px;
 }
-
 
 .ecritureblanc{
   color: white;
@@ -271,9 +267,8 @@ text-align: center;
 }
 
 .descriptifoffre {
-  font-family: 'Raleway';
   font-weight: 500;
-
+  color: black;
 }
 
 .imagedescription {
@@ -291,44 +286,47 @@ font-weight: 700;
 }
 
 
+.btn-dark1 {
+  color: black;
+  background-color: #E8E1D8;
+  border-color: black;
+
+}
+
+.btn-dark1:hover {
+    color: black;
+    background-color: #E8E1D8;
+    border-color: #FBF9F8; }
+
+
+.btn-light1 {
+      color: black;
+      background-color: white;
+      border-color: #E8E1D8; }
+
+.btn-light1:hover {
+        color: black;
+        background-color: white;
+        border-color: #FBF9F8; }
+
+
 /***************************************************** RDV BOX */
 
 .rdvbox {
   color: black;
-  font-family: 'Raleway';
-  padding-bottom: 30px;
+
 }
 
-
-
-/***************************************************** Guarantee */
-
-.detail {
-  font-size: 20px;
+.rdvclass {
+    background-color: #FBF9F8;
 }
 
-.couleuricone {
-  color: #D1AF7D;
-}
-
-.titresatisfait {
-  font-style: 'Raleway';
-  font-weight: '800';
-  font-size: 30px;
-}
-
-.contourdiv {
-border: 1px solid;
-border-color: #D1AF7D;
-padding-top: 20px;
-padding-bottom: 20px;
-}
 
 /***************************************************** Communauté */
 
 #Communaute {
   padding-top: 50px;
-  background-color: #FFF9F4;
+  background-color: #FBF9F8;
 }
 
 
@@ -356,9 +354,6 @@ padding-bottom: 20px;
 
 /***************************************************** Feedbacks */
 
-.feedbacks {
-font-family: 'Raleway';
-}
 
 .photoavis {
 width: 300px;
@@ -369,7 +364,6 @@ height: auto;
 
 
 #footer {
-  font-family: 'Raleway';
   margin: 0px;
 }
 
@@ -405,12 +399,10 @@ height: auto;
 }
 
 .descriptionfooter {
-  font-family: 'Raleway';
   font-size: 13px;
   color: black;
 }
 
 .copyright {
-  font-family: 'Raleway';
   font-size: 15px;
 }
