@@ -317,7 +317,7 @@ font-weight: 700;
 
 .rdvbox {
   color: black;
-
+font-size: 15px;
 }
 
 .rdvclass {
@@ -325,6 +325,19 @@ font-weight: 700;
     padding: 0px;
 }
 
+
+/***************************************************** Exemple projet blog */
+
+.exempledeprojetcta {
+  padding-top: 20px;
+  background-color: #FBF9F8;
+  padding-left: 11%;
+}
+
+.exempleprojetfont {
+    font-family: 'Cormorant Garamond';
+    font-size: 20px;
+}
 
 /***************************************************** Communauté */
 
