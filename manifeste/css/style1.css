@@ -1,0 +1,408 @@
+h1 {
+  font-family: 'Cormorant Garamond';
+}
+
+h2 {
+  font-family: 'Cormorant Garamond';
+}
+
+h4 {
+  font-family: 'Cormorant Garamond';
+  font-size: 30px;
+}
+
+span {
+  font-family: 'Raleway';
+}
+
+#body {
+  font-family: 'Raleway';
+}
+
+p {
+  font-family: 'Raleway';
+  color: black;
+  font-weight: 500;
+}
+
+li {
+  font-family: 'Raleway';
+}
+
+.font1 {
+  font-family: 'Cormorant Garamond';
+}
+
+.font2 {
+  font-family: 'Raleway';
+}
+
+.paddingclass {
+  padding-bottom: 30px;
+}
+
+/***************************************************** Nav bar */
+.titrenav {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 25px;
+  color: black;
+}
+
+.navbar-collapse {
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+}
+
+.navtext:hover {
+  color: #175260;
+}
+
+.myButton {
+  background-color: #000000;
+  border-radius: 35px;
+  display: inline-block;
+  cursor: pointer;
+  color: #fcf7fc;
+  font-family: 'Raleway';
+  font-size: 13px;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+.myButton:hover {
+  box-shadow: 1px 2px 3px 0px grey;
+  text-decoration: none;
+  color: white;
+  border: 0px solid #ffffff;
+  border-radius: none;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.myButton6 {
+  background-color: black;
+  border-radius: 35px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-family: 'Raleway';
+  font-size: 14px;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+.myButton6:hover {
+  background-color: #af502b;
+  text-decoration: none;
+  color: white;
+}
+
+.myButton6:active {
+  position: relative;
+  top: 1px;
+}
+
+.header-sticky:hover {
+  background: white;
+  box-shadow: 0px 8px 17px -3px rgba(0, 0, 0, 0.1);
+}
+
+.titrenav {
+  padding-top: 5px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.ecartnav {
+  padding-right: 12px;
+}
+
+/*****************************************************  Vidéo */
+#haut {
+  background-color: #FBF6F0;
+}
+
+#myVideo {
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  padding-top: 120px;
+}
+
+/*****************************************************  Titre */
+#landing {
+  padding-top: 70px;
+  background-color: #FBF6F0;
+}
+
+.titrelanding {
+  font-size: 120px;
+  font-weight: bolder;
+  color: white;
+  margin-top: 200px;
+  margin-bottom: 0px;
+}
+
+.soustitrelanding {
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+}
+
+.textelanding {
+  font-size: 17px;
+  font-family: 'Raleway';
+  font-weight: lighter;
+}
+
+.values {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+/***************************************************** Second part */
+.morecaracteristique {
+  padding-top: 50px;
+  font-weight: 900;
+  font-size: 80px;
+}
+
+.aligncentertitre {
+  text-align: center;
+}
+
+.decoratricecheznous {
+  font-weight: lighter;
+}
+
+/***************************************************** CTA bas de page */
+.ctaquestion {
+  font-size: 25px;
+}
+
+.myButtonx {
+  background: linear-gradient(to bottom, #E2DDD3 5%, #E2DDD3 100%);
+  background-color: #E2DDD3;
+  border-radius: 17px;
+  border: 1px solid #E2DDD3;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-family: 'Raleway';
+  font-size: 12px;
+  padding: 9px 55px;
+  text-decoration: none;
+}
+
+.myButtonx:hover {
+  background: linear-gradient(to bottom, #E2DDD3 5%, #E2DDD3 100%);
+  background-color: #E2DDD3;
+  color: black;
+}
+
+.myButtonx:active {
+  position: relative;
+  top: 1px;
+}
+
+/***************************************************** Ligne footer */
+#trust {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.hrfin {
+  background-color: #EAF2F1;
+  width: 70%;
+  padding: 0px;
+}
+
+.projetserein {
+  font-size: 30px;
+  text-align: center;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.voirleprojet {
+  text-align: center;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.titrecaroussel {
+  text-align: center;
+  font-weight: lighter;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+.ctavlp {
+  text-decoration: none;
+  color: black;
+}
+
+/***************************************************** Footer */
+#footer {
+  margin: 0px;
+}
+
+.Headfooter {
+  font-size: 20px;
+  font-family: 'Garamond';
+  padding-left: 0px;
+  font-weight: bold;
+}
+
+.divconter {
+  padding-right: 180px;
+}
+
+.iconefooter {
+  font-size: 23px;
+  color: grey;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline
+}
+
+.iconefooter:hover {
+  color: black;
+}
+
+.textbouttonfooter {
+  font-size: 10px;
+  color: grey;
+}
+
+.textbouttonfooter:hover {
+  color: black;
+}
+
+.marginbottom {
+  margin-bottom: 0px;
+}
+
+.reseaux {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.lienstyle {
+  color: grey;
+}
+
+.lienstyle:hover {
+  color: black;
+}
+
+.lienstyle2 {
+  font-size: 35px;
+  color: black;
+}
+
+.lienstyle2:hover {
+  color: black;
+}
+
+.maildeco {
+  text-decoration: none;
+  color: grey;
+}
+
+.maildeco:hover {
+  color: black;
+}
+
+.descriptionfooter {
+  font-size: 13px;
+  color: grey;
+}
+
+.lastpart {
+  height: 100px;
+  width: auto;
+}
+
+.lastpartdiv {
+  padding-bottom: 0px;
+}
+
+/***************************************************** MEDIA QUERY */
+@media (max-width: 810px) {
+  #landing {
+    padding-top: Opx;
+    background-color: #FBF6F0;
+  }
+
+  #haut {
+    height: 310px;
+  }
+
+  .titrelanding {
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 120px;
+    margin-bottom: 0px;
+  }
+
+  .soustitrelanding {
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+  }
+
+  .textelanding {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+  }
+
+  .morecaracteristique {
+    font-size: 30px;
+    text-align: left;
+  }
+
+  h1 {
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+
+  .decoratricecheznous {
+    padding-left: 30px;
+  }
+
+
+.hrfin {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.projetserein {
+  padding-left: 0px;
+  padding-top: 0px;
+  font-size: 25px
+}
+
+.titrecaroussel {
+  font-size: 20px;
+}
+
+.voirleprojet{
+  font-size: 13px;
+}
+
+
+}
