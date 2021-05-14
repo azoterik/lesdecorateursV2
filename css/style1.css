@@ -1,14 +1,14 @@
 h1 {
-    font-family: 'Cormorant Garamond';
-    font-size: 50px;
-    font-weight: 900;
-    padding-left: 35px;
+  font-family: 'Cormorant Garamond';
+  font-size: 50px;
+  font-weight: 900;
+  padding-left: 35px;
 }
 
 h2 {
-    font-family: 'Cormorant Garamond';
-    font-size: 30px;
-    font-weight: 900;
+  font-family: 'Cormorant Garamond';
+  font-size: 30px;
+  font-weight: 900;
 }
 
 h3 {
@@ -18,31 +18,29 @@ h3 {
 }
 
 p {
-    font-family: 'Raleway';
-    color: black;
+  font-family: 'Raleway';
+  color: black;
 }
 
 .font1 {
   font-family: 'Cormorant Garamond';
 }
 
-
-.font2  {
+.font2 {
   font-family: 'Raleway';
 }
 
-.font3  {
+.font3 {
   font-family: 'Raleway';
   font-size: 15px;
 }
-/***************************************************** Nav bar */
 
+/***************************************************** Nav bar */
 .titrenav {
   font-weight: 700;
   font-size: 25px;
   color: black;
 }
-
 
 .navbar-collapse {
   font-weight: 600;
@@ -67,7 +65,7 @@ p {
 }
 
 .myButton:hover {
-box-shadow: 1px 2px 3px 0px grey;
+  box-shadow: 1px 2px 3px 0px grey;
   text-decoration: none;
   color: white;
   border: 0px solid #ffffff;
@@ -103,18 +101,17 @@ box-shadow: 1px 2px 3px 0px grey;
   top: 1px;
 }
 
-.header-sticky:hover{
+.header-sticky:hover {
   background: white;
-  box-shadow: 0px 8px 17px -3px rgba(0,0,0,0.1);
+  box-shadow: 0px 8px 17px -3px rgba(0, 0, 0, 0.1);
 }
 
 .titrenav {
-    padding-top: 5px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
-
 
 .nav-item {
   padding-left: 20px;
@@ -123,57 +120,52 @@ box-shadow: 1px 2px 3px 0px grey;
 .fontcolor {
   color: black;
 }
-/***************************************************** Titre */
 
+/***************************************************** Titre */
 .imageaccueil {
   width: 100%;
   height: auto;
 }
 
 .myButton2 {
-  background-color: white;
-  font-family: 'Raleway';
-  border-radius: 28px;
-  display: inline-block;
-  cursor: pointer;
-  color: black;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 20px 80px;
-  text-decoration: none;
-  text-shadow: 0px 0px 0px #2f6627;
-  position: relative;
-  top: 40px;
-  left: 35px;
-  z-index: 1;
+	background-color:#F6F3EE;
+	border-radius:30px;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:'Raleway';
+	font-size:14px;
+	font-weight:bold;
+	padding:12px 44px;
+	text-decoration:none;
+  margin-left: 20px;
 }
-
 .myButton2:hover {
-  background-color: #eeeeee;
-  color: black;
+	background-color:#FBF9F8;
+    color: black;
 }
-
 .myButton2:active {
-  position: relative;
+	position:relative;
+	top:1px;
 }
 
 .titrepremier {
-  font-size: 80px;
+  font-size: 60px;
 }
 
 /***************************************************** Press */
-
-
 .logo {
-  -webkit-filter: grayscale(70%); /* Safari 6.0 - 9.0 */
-filter: grayscale(70%);
-width: 160px;
-height: auto;
+  -webkit-filter: grayscale(70%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(70%);
+  width: 160px;
+  height: auto;
 }
 
 .press {
   padding-top: 10px;
   padding-bottom: 10px;
+  background-color: #FBF9F8;
 }
 
 .logo1 {
@@ -182,8 +174,95 @@ height: auto;
 }
 
 
+/***************************************************** PUNCHLINE */
+
+#topcontainer {
+padding-bottom: 10px;
+padding-top: 80px;
+}
+
+.introtitre {
+    padding-left: 0px;
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.introsoustitre {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 35px;
+}
+
+/***************************************************** Offre */
+#Offre {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background-color: #FBF9F8;
+}
+
+.punchline {
+  padding-top: 20px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Raleway';
+}
+
+.detailprix {
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.detailoffre {
+  font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card-footer {
+  text-align: center;
+  padding-bottom: 70px;
+  margin-top: 70px;
+}
+
+
 /***************************************************** concept rapide */
 
+.container1 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.bouttonpro {
+  position: absolute;
+  top: 80%;
+  left: 42%;
+  font-size: 16px;
+  text-align: center;
+  background-color:transparent;
+  border-radius:28px;
+  border:1px solid #ffffff;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family: 'Raleway';
+  font-size:15px;
+  padding:9px 63px;
+  text-decoration:none;
+}
+
+.bouttonpro:hover {
+	background-color:transparent;
+  color: white;
+}
+
+
+
+
+/***************************************************** concept rapide */
 
 .textesuper {
   background-color: #F6F1EB;
@@ -196,14 +275,21 @@ height: auto;
 }
 
 /***************************************************** Explication */
-
 #Explication {
   padding-top: 60px;
-background-color: #FBF9F8;
+  padding-bottom: 20px;
+
+}
+
+.largetitre{
+  font-size: 35px;
+  font-weight: lighter;
+  font-family: 'Raleway';
+  font-weight: 700;
 }
 
 .numeroexplication {
-  font-size: 85px;
+  font-size: 95px;
   text-align: center;
   font-weight: 600;
   margin-bottom: 10px;
@@ -220,168 +306,209 @@ background-color: #FBF9F8;
   font-weight: 400;
 }
 
-.image1 {
-height: 200px;
-width: auto;
-padding-left: 100px;
-}
-
-.image2 {
-  height: 200px;
-  width: auto;
-  padding-left: 70px;
-}
-
-.image3 {
-  height: 200px;
-  width: auto;
-  padding-left: 80px;
-}
 
 .paddingexplication {
-  padding-top: 70px;
+  padding-top: 30px;
 }
-
 
 .text-block3 {
-font-weight: 600;
-font-size: 2.5rem;
-padding-left: 50px;
-padding-bottom: 50px;
-text-align: center;
-}
-
-/***************************************************** Offre */
-
-#Offre {
-  padding-top: 50px;
+  font-weight: 600;
+  font-size: 2.5rem;
+  padding-left: 50px;
   padding-bottom: 50px;
-  background-color: #FBF9F8;
+  text-align: center;
 }
-
-.numeroexplication2 {
-  font-weight: 500;
-  font-size: 80px;
-}
-
-.ecritureblanc{
-  color: white;
-  font-weight: 500;
-}
-
-.descriptifoffre {
-  font-weight: 500;
-  color: black;
-}
-
-.imagedescription {
-  width: 180px;
-  height: auto;
-}
-
-
-.ensvp {
-font-weight: 700;
-}
-
-.piecetypo {
-  font-size: 20px;
-}
-
-
-.btn-dark1 {
-  color: black;
-  background-color: #E8E1D8;
-  border-color: black;
-
-}
-
-.btn-dark1:hover {
-    color: black;
-    background-color: #E8E1D8;
-    border-color: #FBF9F8; }
-
-
-.btn-light1 {
-      color: black;
-      background-color: white;
-      border-color: #E8E1D8; }
-
-.btn-light1:hover {
-        color: black;
-        background-color: white;
-        border-color: #FBF9F8; }
 
 
 /***************************************************** RDV BOX */
 
-.rdvbox {
-  color: black;
-font-size: 15px;
+.unequestion {
+font-size: 20px;
+font-weight: lighter;
+padding-left: 0px;
+text-align: center;
 }
 
-.rdvclass {
-    background-color: #FBF9F8;
-    padding: 0px;
-}
-
-
-/***************************************************** Exemple projet blog */
-
-.exempledeprojetcta {
-  padding-top: 20px;
-  background-color: #FBF9F8;
-  padding-left: 11%;
-}
-
-.exempleprojetfont {
-    font-family: 'Cormorant Garamond';
-    font-size: 20px;
+.containerquestion {
+  padding-top: 0px;
 }
 
 /***************************************************** Communauté */
 
-#Communaute {
-  padding-top: 50px;
-  background-color: #FBF9F8;
+#manifesto {
+padding-top: 30px;
+padding-bottom: 30px;
+background-color: #FBF9F8
 }
 
-
-.divarchi {
-  padding-top: 20px;
-}
-
-.archi {
+.titrecommunaute {
+  font-size: 35px;
   text-align: center;
-  padding-left: 50px;
-  padding-right: 50px;
+font-weight: lighter;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
-.photoarchi {
-  padding-left: 30px;
-  padding-right: 30px;
+.textecommunaute {
+  font-size: 14px;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
-.bouttonarchi {
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-top: 15px;
+.textecommunautecentrage {
+  text-align: center;
+  padding-top: 10%;
+  padding-right: 5%;
+  padding-left: 18%;
+}
+
+.ensavoirplus {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+/***************************************************** Nos feedbacks */
+
+#avis {
+  background-color: #FBF9F8
+}
+
+.avistexte {
+  font-size: 60px;
+  padding-left: 0px;
+  font-family: 'Raleway';
+  font-weight: 700;
+}
+
+.etoile1 {
+  font-size: 30px;
+}
+
+.soustitreavis {
+  padding-top: 30px;
+}
+
+.etoile2 {
+  font-size: 10px;
+align-items: center;
 }
 
 
-/***************************************************** Feedbacks */
-
-
-.photoavis {
-width: 300px;
-height: auto;
+.avisprojet {
+  font-size: 20px;
+  text-align: center;
 }
+
+.nomprojet {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.avisblock {
+  padding-top: 50px;
+  text-align: center;
+}
+
+/***************************************************** Nos histoires */
+
+.noshistoires {
+font-size: 30px;
+font-weight: lighter;
+font-style: italic;
+}
+
+.titrecaroussel {
+  text-align: center;
+  font-weight: lighter;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+.voirleprojet {
+  text-align: center;
+  font-size: 15px;
+  font-weight: lighter;
+  font-family: 'Raleway';
+
+}
+
+.ctavlp {
+  text-decoration: none;
+  color: black;
+}
+
+.ctavlp:hover {
+  text-decoration: none;
+  color: black;
+}
+
+/***************************************************** Ligne footer */
+
+#trust {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.hrfin {
+  background-color: #EAF2F1;
+  width: 70%;
+  padding: 0px;
+}
+
+.projetserein {
+font-size: 30px;
+text-align: center;
+font-weight: lighter;
+font-style: italic;
+}
+
+
 
 /***************************************************** Footer */
 
-
 #footer {
   margin: 0px;
+}
+
+.Headfooter {
+  font-size: 20px;
+  font-family: 'Garamond';
+  padding-left: 0px;
+  font-weight: bold;
+}
+
+.divconter {
+  padding-right: 180px;
+}
+
+.iconefooter {
+  font-size: 23px;
+  color: grey;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline
+}
+
+.iconefooter:hover {
+  color: black;
+}
+
+.textbouttonfooter {
+  font-size: 10px;
+  color: grey;
+}
+
+.textbouttonfooter:hover {
+  color: black;
+}
+
+.marginbottom {
+  margin-bottom: 0px;
 }
 
 .reseaux {
@@ -390,7 +517,7 @@ height: auto;
 }
 
 .lienstyle {
-  color: black;
+  color: grey;
 }
 
 .lienstyle:hover {
@@ -408,7 +535,7 @@ height: auto;
 
 .maildeco {
   text-decoration: none;
-  color: black;
+  color: grey;
 }
 
 .maildeco:hover {
@@ -417,9 +544,140 @@ height: auto;
 
 .descriptionfooter {
   font-size: 13px;
-  color: black;
+  color: grey;
 }
 
-.copyright {
+.lastpart {
+  height: 100px;
+  width: auto;
+}
+
+.lastpartdiv {
+  padding-bottom: 0px;
+}
+
+
+/***************************************************** MEDIA QUERY */
+@media (max-width: 810px) {
+
+.introsoustitre {
+  padding-left: 0px;
+  font-size: 20px;
+}
+
+.numeroexplication2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.unequestion {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.bouttonpro {
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  font-size: 10px;
+  text-align: center;
+  background-color:#FAFAFA;
+  border-radius:28px;
+  border:1px solid #ffffff;
+  display:inline-block;
+  cursor:pointer;
+  color:black;
+  font-family: 'Raleway';
+  padding:8px 33px;
+  text-decoration:none;
+}
+
+.punchline {
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.detailprix {
+  font-size: 25px;
+}
+
+.taillebouton{
+  font-size: 12px;
+}
+
+.numeroexplication {
+  font-size: 60px;
+}
+
+.titreexplication {
+  font-size: 25px;
+}
+
+.largetitre {
+  padding-left: 10px;
+  text-align: center;
+  font-size: 28px;
+}
+
+.avistexte {
   font-size: 15px;
+}
+
+
+.avistexte {
+  font-size: 40px;
+}
+
+.soustitreavis {
+  font-size: 20px;
+}
+
+.noshistoires {
+padding-left: 5px;
+}
+
+.hrfin {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.projetserein {
+  padding-left: 0px;
+  padding-top: 0px;
+  font-size: 25px
+}
+
+.titrecaroussel {
+  font-size: 20px;
+}
+
+.voirleprojet{
+  font-size: 13px;
+}
+
+#Footer {
+  display: none
+}
+
+#nosprojets {
+    display: none
+}
+
+
+.lastpartdiv {
+  padding-top: 20px;
+}
+
+
+}
+
 }
